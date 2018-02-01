@@ -1,0 +1,14 @@
+<build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.0</version>
+              <configuration>
+                  <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+              </configuration>
+          </plugin>
+      </plugins>
+      <!-- we dont want the version to be part of the generated war file name -->
+      <finalName>${project.artifactId}</finalName>
+  </build>
