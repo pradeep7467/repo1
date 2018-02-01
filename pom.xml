@@ -5,5 +5,9 @@
 	<groupId>com.pradeep</groupId>
 	<artifactId>First_HTML</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<configuration>
+                  <webXml>src\main\webapp\WEB-INF\web.xml</webXml>
+              </configuration> 
   <packaging>ear</packaging>
 </project>
