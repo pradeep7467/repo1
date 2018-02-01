@@ -6,5 +6,5 @@
 	<artifactId>First_HTML</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-  <packaging>ear</packaging>
+  <packaging>war</packaging>
 </project>
